@@ -6,7 +6,7 @@ const error = "Error: porfavor, ingresa una edad valida en numeros"
 const Vacio = "Error: porfavor ingresa un valor valido"
 if (isNaN(age)){
     console.log(error);
-    alert(error)
+    alert(error);
 }else if(age.length === 0 || name.length === 0){
     console.log(Vacio);
     alert(Vacio);
